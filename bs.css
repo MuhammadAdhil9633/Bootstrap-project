@@ -1,0 +1,323 @@
+
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    --primarycolor:#4318FF;
+    --secondarycolor:#949DB9;
+    --territorycolor:#2B3674;
+}
+
+
+body{
+    background: #E9EDF2 !important; 
+}
+.row.main{
+    display: flex;
+    justify-content: space-between;
+    
+    
+} 
+/* .card-1 {
+    width: 49% !important;
+}  */
+
+
+.upload{
+    background-color: #FAF9FF;
+}
+
+.upload h4{ 
+    color: var(--primarycolor);
+    
+}
+.alrt-p p{
+    font-size: 12px;
+
+}
+button.btn.btn-canel.btn-primary{
+    background: #FAF9FF !important;
+    border: none;
+    color: var(--territorycolor) ;
+
+}
+
+/* .form-select::placeholder{
+    color:red;
+} */
+.form-control::placeholder{
+    color: var(--secondarycolor)!important;
+}
+.form-control{
+    color: var(--secondarycolor);
+}
+.form-control:focus{
+    border: 1px solid var(--primarycolor) !important;
+    color: var(--primarycolor);
+  /* color: var(--primarycolor)!important; */
+  box-shadow: none !important;
+}
+.form-select:focus{
+    color: var(--secondarycolor);
+   border: 1px solid var(--primarycolor) !important;
+    box-shadow: none !important;
+}
+
+input.form-control.values{
+    width: 65px;
+    font-weight: 700;
+    color: #2B3674;
+}
+  
+  
+
+.card-1{
+    border-radius: 22px;
+    
+
+}
+.self input     .form-control{
+    height: 190px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+
+    background: var(--primarycolor);
+    
+    
+    
+   
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: none !important;
+  }
+  
+  input[type="range"]:focus::-moz-range-thumb {
+    box-shadow: none !important;
+  }
+  
+  input[type="range"]:focus::-ms-thumb {
+    box-shadow: none !important;
+  }
+
+input[type=radio]#male{
+
+    accent-color: var(--primarycolor);
+}
+input[type=radio]#female{
+    accent-color: var(--primarycolor);
+}
+.form-floating .form-control{
+   padding-bottom: 145px !important;
+   overflow: hidden;
+  
+}
+.form-control{
+    height: 45px;
+}
+input#exampleColorInput{
+    height: 45px;
+}
+.checkbox-sctn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+input.form-control{
+    font-size: 12px;
+}
+.value-sctn input.form-control{
+    
+   
+    height: 50px;
+    text-align: center;
+    border: 1px var(--secondarycolor) solid;
+    color: var(--territorycolor);
+    font-size: 15px;
+    font-weight: 700;
+}
+.checkbox label{
+    color: var(--territorycolor);
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .checkbox input{
+    width: 20px;
+    height: 20px;
+
+} */
+.Terms label{
+    color: var(--territorycolor);
+    font-size: 12px;
+    font-weight: 400;
+
+}   
+
+
+.gender-1 input{
+    width: 15px;
+    height: 15px;
+}
+.gender-2 input{
+    width: 15px;
+    height: 15px;
+}
+.gender-1 label{
+    color: var(--territorycolor);
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-2 h5{
+     font-size: 15px;
+    color: var(--territorycolor) ;
+    font-weight: 700;
+
+}
+.gender-2 label{
+    color: var(--territorycolor);
+    font-size: 14px;
+    font-weight: 500;
+}
+container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+detail-sctn::after{
+    content: "*";
+}
+input#exampleColorInput{
+    width: 100%;
+}
+select.form-select{
+    border-radius: 12px;
+   color: ;
+    border: 1px solid #B6BBC7;
+}
+input.form-control{
+    border-radius: 12px;
+    border: 1px solid var(--secondarycolor);
+}
+input#temp-check{
+    accent-color: var(--primarycolor);
+}
+input#checking{
+    accent-color: var(--primarycolor);
+}
+input#color-check{
+    accent-color: var(--primarycolor);
+}
+form-range::-webkit-slider-thumb{
+   background-color: var(--primarycolor);
+}
+.upload i{
+    color: var(--primarycolor);
+
+}
+.card-2{
+    background: #FFF;
+    border-radius: 22px;
+}
+
+
+.card-1{
+    background:#FFF;
+
+}
+.upload{
+    border: 1px dashed #B2BAD0 ;
+    border-radius: 13px;
+    bord
+    
+}
+.upload input{
+    display: none;
+}
+.card-1 h5{
+    font-size: 15px;
+    color: var(--territorycolor) ;
+    font-weight: 700;
+}
+select.form-select{
+    font-weight: 500;
+  
+    font-size: 12px;
+}
+.alert-sctn h6{
+   
+    font-weight: 700;
+    
+}
+
+.detail-sctn h6{
+    color: var(--territorycolor);
+    font-size: 10px;
+    font-weight: 600;
+ 
+}
+.form-select{
+    padding: 10px !important;
+}
+.select.form-select{
+    /* color: var(--secondarycolor) !important; */
+
+}
+input#term-sctn{
+    accent-color: var(--primarycolor);
+}
+.detail-sctn h6::after{
+    content: "*";
+    color: #FF1818;
+}
+.header h4{
+    font-size: 16px;
+
+font-weight: 700;
+}
+.header h2{
+    color: var(--secondarycolor);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detail-sctn h5{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.detail-sctn .input-group{
+    border: var(--primarycolor);
+     border-radius: 16px;
+}
+input{
+    border: none;
+}
+
+
+
+.btn-sctn{
+    background: #FFF;
+    border-radius: 22px;
+}
+.birth input.form-control{
+    color: var(--secondarycolor); !important
+}
+.btn-sctn .btn-primary{
+    background-color: var(--primarycolor) !important;
+    width: 160px;
+    height: 58px;
+   
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
